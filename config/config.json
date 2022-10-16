@@ -2,21 +2,21 @@
   "development": {
     "username": "postgres",
     "password": "postgres",
-    "database": "tour_db",
+    "database": "music_tour",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
     "username": "postgres",
     "password": "postgres",
-    "database": "test_tour_db",
+    "database": "music_tour_test",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
     "username": "postgres",
     "password": "postgres",
-    "database": "tour_db_production",
+    "database": "music_tour_production",
     "host": "127.0.0.1",
     "dialect": "postgres"
   }

@@ -13,7 +13,6 @@ app.use(express.urlencoded({ extended: false }))
 
 
 
-
 // ROOT - A GET for the root route ('/'), responding with a simple welcome message
 app.get('/', (req, res) => {
     res.status(200).json({
